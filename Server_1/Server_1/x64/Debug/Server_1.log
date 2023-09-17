@@ -1,0 +1,27 @@
+﻿  Server_1.cpp
+E:\учеба вуз\Пятый семестр\Курсовая\orig\с сервер логом\Server_1\Server_1\Server_1.cpp(40,36): warning C4311: приведение типов: усечение указателя из "HANDLE" в "unsigned long"
+E:\учеба вуз\Пятый семестр\Курсовая\orig\с сервер логом\Server_1\Server_1\Server_1.cpp(40,36): warning C4302: приведение типов: усечение из "HANDLE" к "unsigned long"
+E:\учеба вуз\Пятый семестр\Курсовая\orig\с сервер логом\Server_1\Server_1\Server_1.cpp(73,80): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+E:\учеба вуз\Пятый семестр\Курсовая\orig\с сервер логом\Server_1\Server_1\Server_1.cpp(76,69): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+E:\учеба вуз\Пятый семестр\Курсовая\orig\с сервер логом\Server_1\Server_1\Server_1.cpp(96,73): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(1572,98): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\thread(51,5): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::invoke<void(__cdecl *)(SOCKET,short,int),unsigned __int64,short,unsigned __int64>(_Callable &&,_Ty1 &&,short &&,unsigned __int64 &&) noexcept(false)"
+          with
+          [
+              _Callable=void (__cdecl *)(SOCKET,short,int),
+              _Ty1=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\thread(61,5): message : выполняется компиляция ссылки на экземпляр шаблон функции "unsigned int std::thread::_Invoke<_Tuple,0,1,2,3>(void *) noexcept"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\thread(66,13): message : выполняется компиляция ссылки на экземпляр шаблон функции "unsigned int (__cdecl *std::thread::_Get_invoke<_Tuple,0,1,2,3>(std::integer_sequence<size_t,0,1,2,3>) noexcept)(void *)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\thread(89,5): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::thread::_Start<void(__cdecl &)(SOCKET,short,int),SOCKET&,short&,_Ty>(_Fn,SOCKET &,short &,_Ty &&)"
+          with
+          [
+              _Ty=unsigned __int64,
+              _Fn=void (__cdecl &)(SOCKET,short,int)
+          ]
+E:\учеба вуз\Пятый семестр\Курсовая\orig\с сервер логом\Server_1\Server_1\Server_1.cpp(225,61): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::thread::thread<void(__cdecl &)(SOCKET,short,int),SOCKET&,short&,unsigned __int64,0>(_Fn,SOCKET &,short &,unsigned __int64 &&)"
+          with
+          [
+              _Fn=void (__cdecl &)(SOCKET,short,int)
+          ]
+  Server_1.vcxproj -> E:\учеба вуз\Пятый семестр\Курсовая\orig\с сервер логом\Server_1\x64\Debug\Server_1.exe
